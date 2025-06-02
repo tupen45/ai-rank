@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import pandas as pd
+import os
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 from flask_cors import CORS
